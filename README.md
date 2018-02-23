@@ -4,10 +4,10 @@
 ### 1.模块详解
 
 #### 1.1 结构简图
-![模块化结构图](https://raw.githubusercontent.com/JionSey/JCNetWorkingManager/master/屏幕快照%202018-02-23%2010.35.48.png)
+![模块化结构图](https://github.com/JionSey/JCNetWorkingManager/blob/master/README_PIC/屏幕快照%202018-02-23%2010.35.48.png?raw=true)
 
 #### 1.2 类模块解释
-![工程结构图](/Users/Jackie/Desktop/JCNetWorkingManager/B7BD3EDC2ABF711F2B18BDEAB1DB5B37.png)
+![工程结构图](https://github.com/JionSey/JCNetWorkingManager/blob/master/README_PIC/B7BD3EDC2ABF711F2B18BDEAB1DB5B37.png?raw=true)
 #### config
 
 - JCNetWorkingEnvironmentConfigure 域名及环境的全局配置
@@ -139,7 +139,7 @@ request.netWorkingCacheTool = self.netWorkingCacheTool;
 ### 3.使用详解
 #### 3.1 工程环境及域名配置
 ##### 在正式使用项目的时候我们需要配置功能环境，以达到自动切换请求环境的目的。
-![工程环境配置](/Users/Jackie/Desktop/99DD33EDA6EC4B3CFA363E3362903269.png)
+![工程环境配置](https://github.com/JionSey/JCNetWorkingManager/blob/master/README_PIC/99DD33EDA6EC4B3CFA363E3362903269.png?raw=true)
 ##### 在Appdelegate书写转换代码，这样只要我们切换了编译环境。我们网络请求模块的域名就会自动修改为对应的环境域名。
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
