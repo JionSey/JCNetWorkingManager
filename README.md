@@ -221,7 +221,7 @@ NSLog(@"%@", responseModel);
 }
 
 - (JCHomeService *)homeService {
--
+
 if (!_homeService){
 _homeService = [JCHomeService new];
 }
