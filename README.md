@@ -4,7 +4,7 @@
 ### 1.模块详解
 
 ####1.1 结构简图
-![模块化结构图](JCNetWorkingManager/屏幕快照 2018-02-23 10.35.48)
+![模块化结构图](https://github.com/JionSey/JCNetWorkingManager/blob/master/屏幕快照%202018-02-23%2010.35.48.png?raw=true)
 
 ####1.2 类模块解释
 ####config
