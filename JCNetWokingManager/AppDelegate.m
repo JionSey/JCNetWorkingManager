@@ -15,11 +15,14 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+#ifdef TEST_ENV
     [[JCNetWorkingEnvironmentConfigure showJCEnvironmentConfigure] setEnvironmentType:JCNetWorkingEnvironmentTypeTest];
+#else
+    [[JCNetWorkingEnvironmentConfigure showJCEnvironmentConfigure] setEnvironmentType:JCNetWorkingEnvironmentTypeOnline];
+#endif
 
     return YES;
 }
