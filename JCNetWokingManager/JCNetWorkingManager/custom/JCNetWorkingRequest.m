@@ -35,7 +35,7 @@
     baseRequest.parameter = parameterModel;
     baseRequest.responseClass = responseClass;
     return baseRequest;
-};
+}
 
 + (JCNetWorkingRequest *)requestWithDomainType:(JCDomainType)domainType path:(NSString *)path parameterModel:(JCNetWorkingParameterModel *)parameterModel responseClass:(Class)responseClass
 {

@@ -8,7 +8,6 @@
 + (instancetype)showJCNetWorkingProtocolManager;
 
 @property (nonatomic, copy) Class <JCNetWorkingModelProtocol> netWorkingModelProtocolClass;
-@property (nonatomic, strong) id <JCNetWorkingModelProtocol> netWorkingModelTool;
 @property (nonatomic, strong) id <JCNetWorkingCacheProtocol> netWorkingCacheTool;
 
 @end

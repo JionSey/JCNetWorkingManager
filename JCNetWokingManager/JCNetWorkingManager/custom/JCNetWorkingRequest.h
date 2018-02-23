@@ -41,7 +41,6 @@ typedef NSString *(^JCCustomCacheKey)(NSString *path, id parameter);
                              customCacheKey:(JCCustomCacheKey)customCacheKey;
 
 @property (nonatomic, copy) Class <JCNetWorkingModelProtocol> netWorkingModelProtocolClass;
-@property (nonatomic, strong) id <JCNetWorkingModelProtocol> netWorkingModelTool;
 @property (nonatomic, strong) id <JCNetWorkingCacheProtocol> netWorkingCacheTool;
 
 // Domain
